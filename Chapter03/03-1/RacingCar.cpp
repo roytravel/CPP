@@ -47,6 +47,8 @@ void Break(Car &car)
         car.curSpeed = 0;
         return ;
     }
+
+    car.curSpeed = car.curSpeed - BRK_STEP;
 }
 
 
